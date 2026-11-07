@@ -1,0 +1,136 @@
+
+
+/* General Website Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: #dceeff;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 10px;
+}
+
+/* Event Cards */
+.event-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+/* Buttons */
+.button,
+button {
+    display: inline-block;
+    background-color: #174a7e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #0d3155;
+}
+
+/* Registration Form */
+.registration {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #174a7e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    .welcome {
+        padding: 25px 15px;
+    }
+}
